@@ -17,9 +17,7 @@ set.seed(4)
 # 1 - Simulate Data 
 #///////////////////////////////////////////////////////////////////////////////
 
-data = sim_data(n = 600)
-
-save(data, file = 'simulated_data.Rdata')
+load('simulated_data.Rdata')
 
 svec = seq(0, 20, 1) ## time-points at which to evaluate survival
 

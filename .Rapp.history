@@ -1,0 +1,3 @@
+load("/Users/arman/google_drive/Research/Gcomp_wTiming/example_repo/simulated_data.Rdata")
+ls()
+head(data)
