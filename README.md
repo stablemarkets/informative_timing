@@ -1,6 +1,20 @@
 # Adjustment for Informative Timing
 
-Companion repository for paper titled ``Considerations for Estimating Causal Effects of Informatively Timed Treatments.'' It contains example code illustrating adjustment for informatively timed sequence of two treatment decisions.
+Companion repository for paper [Considerations for Estimating Causal Effects of Informatively Timed Treatments](https://arxiv.org/abs/2508.21804). It contains example code illustrating adjustment for informatively timed sequence of two treatment decisions.
+
+If using LaTeX, you can cite in the .bib file as:
+
+```
+@misc{oganisian2025considerations,
+    title={Considerations for Estimating Causal Effects of Informatively Timed Treatments},
+    author={Arman Oganisian},
+    year={2025},
+    eprint={2508.21804},
+    archivePrefix={arXiv},
+    primaryClass={stat.ME}
+}
+```
+
 
 The main code to run is `example.R`. This takes as input the synthetic data set `simulated_data.Rdata` and runs continuous and discrete-time adjustment methods described in the paper. These methods are implemented in functions stored in `source_codes/function_source_code.R`.
 
