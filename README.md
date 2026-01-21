@@ -1,17 +1,20 @@
 # Adjustment for Informative Timing
 
-Companion repository for paper [Considerations for Estimating Causal Effects of Informatively Timed Treatments](https://arxiv.org/abs/2508.21804). It contains example code illustrating adjustment for informatively timed sequence of two treatment decisions.
+Companion repository for paper [Considerations for Estimating Causal Effects of Informatively Timed Treatments](https://journals.lww.com/epidem/fulltext/9900/considerations_for_estimating_causal_effects_of.444.aspx). It contains example code illustrating adjustment for informatively timed sequence of two treatment decisions.
 
 If using LaTeX, you can cite in the .bib file as:
 
 ```
-@misc{oganisian2025considerations,
-    title={Considerations for Estimating Causal Effects of Informatively Timed Treatments},
-    author={Arman Oganisian},
-    year={2025},
-    eprint={2508.21804},
-    archivePrefix={arXiv},
-    primaryClass={stat.ME}
+@article{oganisian2026considerations,
+  title={Considerations for Estimating Causal Effects of Informatively Timed Treatments},
+  author={Oganisian, Arman},
+  year = {2026}
+  journal={Epidemiology},
+  pages={1-11},
+  doi = {10.1097/EDE.0000000000001943}
+  volume={37}
+  number={2}
+  publisher={LWW}
 }
 ```
 
